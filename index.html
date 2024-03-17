@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body class="container">
+    <br>
+    <div class="card">
+       <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    
+                    <div class="form-group">
+                        <form id="taskForm">
+
+                            <label for="taskInput" style="font-size: larger; ">Task List</label>
+                            <input type="text" class="form-control" id="taskInput" placeholder="Insert Task">
+                            <button type="button" id="newTask" class="btn btn-primary form-control">Submit</button>
+                        </form>
+                        
+                    </div>
+                </div> 
+            </div>
+            <br>
+            <div id="insertTask">
+
+            </div>
+            <br>
+        <table id="tasks" class="table table-light table-striped">
+            <tr>
+            <th>Jobs</th>
+            <tr>
+        </table>
+    </div>
+</div>        
+       
+<script src="task.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>    
+</body>
+</html>
