@@ -33,7 +33,7 @@ document.getElementById('newTask').addEventListener('click', (event) =>{// addin
         insertTasks.textContent = "Please enter task!";
     } else {// if they did enter text in the input
 
-let row = table.insertRow(1);// variable row = inserting a new row
+    let row = table.insertRow(1);// variable row = inserting a new row
 row.insertCell(0).innerHTML = document.getElementById("taskInput").value;// assinging the data to the first cell in the row
 
 document.getElementById('taskInput').value = ""; // Value of taskInput which is the task inserted
